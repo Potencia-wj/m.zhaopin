@@ -1,0 +1,419 @@
+/* banner */
+.banner {
+    position: relative;
+    overflow: hidden;
+    max-width: 640px;
+    min-width: 320px;
+}
+.banner .carousel {
+    width: 800%;
+}
+.banner .carousel li {
+    float: left;
+    width: 16.6%;
+}
+.banner .carousel li a {
+    display: block;
+    width: 76%;
+}
+/* header */
+.index_header {
+    height: 44px;
+    overflow: hidden;
+    border-bottom: 1px solid #3babe5;
+    background-color: #42beff;
+    max-width: 640px;
+    min-width: 320px;
+    box-sizing: border-box;
+}
+.index_header a {
+    color: #fff;
+}
+.index_header .header_title {
+    width: 75px;
+    height: 45px;
+    float: left;
+    margin-left: 12px;
+    background: url(../images/logo_16712.png) no-repeat left center;
+    background-size: 75px 18px;
+}
+.index_header .header_position {
+    float: left;
+    font-size: 12px;
+    margin-left: 15px;
+    max-width: 60px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    line-height: 45px;
+}
+.index_header .header_position span {
+    padding-right: 5px;
+}
+.index_header .header_position img {
+    float: right;
+    width: 7px;
+    margin-top: 22px;
+}
+.index_header .header_login {
+    float: right;
+    width: 64px;
+    height: 21px;
+    margin: 13px 10px 0 0;
+    font-size: 14px;
+}
+.index_header .header_information {
+    float: right;
+    width: 22px;
+    height: 17px;
+    display: block;
+    margin: 14px 10px 0 0;
+    background: url(../images/icon/combine_icon16312.png) no-repeat -276px -26px;
+}
+/* search */
+.search {
+    overflow: hidden;
+    height: 60px;
+    max-width: 640px;
+    min-width: 320px;
+    box-sizing: border-box;
+}
+.search .search_contant {
+    position: relative;
+    margin: 20px 12px 0;
+    height: 38px;
+    border-radius: 50px;
+    background: #f0f0f0;
+    color: #c8c8c8;
+    font-size: 15px;
+    line-height: 38px; 
+}
+.search .search_contant span {
+    display: block;
+    margin: 0 14px;
+}
+.search .search_contant b {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 70px;
+    height: 38px;
+    border-radius: 0 50px 50px 0;
+    background-color: #42beff;
+    color: #fff;
+    text-align: center;
+    font-size: 15px;
+    font-weight: normal;
+}
+
+/* myhandle */
+.myHandle {
+    max-width: 640px;
+    min-width: 320px;
+    box-sizing: border-box;
+    border-bottom: 1px solid #e6e6e6;
+    overflow: hidden;
+    margin-bottom: 10px;
+    padding: 16px 10px 5px;
+}
+.myHandle ul {
+}
+.myHandle ul li {
+    float: left;
+    width: 25%;
+    text-align: center;
+}
+.myHandle ul li a {
+    display: block;
+    text-align: center;
+    position: relative;
+}
+.myHandle ul li a::before {
+    content: "";
+    display: block;
+    width: 40px;
+    height: 40px;
+    margin: 0 auto;
+    background: url(../images/icon/index_MyOperating.png) no-repeat 0 0;
+    background-size: 40px 320px;
+}
+.myHandle ul li.handle_2 a::before {
+    background-position: 0 -40px;
+}
+.myHandle ul li.handle_3 a::before {
+    background-position: 0 -80px;
+}
+.myHandle ul li.handle_3 a::after {
+    content: "";
+    display: block;
+    width: 22px;
+    height: 15px;
+    background: url(../images/icon/hongren.png) no-repeat 0 0;
+    background-size: 22px 15px;
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    margin: -45px -30px 0 0;
+}
+.myHandle ul li.handle_4 a::before {
+    background-position: 0 -120px;
+}
+.myHandle ul li.handle_5 a::before {
+    background-position: 0 -240px;
+}
+.myHandle ul li.handle_6 a::before {
+    background-position: 0 -200px;
+}
+.myHandle ul li.handle_7 a::before {
+    background: url(../images/icon/MyApply_18816.png) no-repeat 0 0;
+    background-size: 40px 40px;
+}
+.myHandle ul li.handle_8 a::before {
+    background-position: 0 -280px;
+}
+.myHandle ul li span {
+    display: block;
+    line-height: 20px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    width: 100%;
+    height: 20px;
+    color: #686868;
+    font-size: 12px;
+}
+
+/* propagate */
+.propagate {
+    margin: 10px 0;
+    max-width: 640px;
+    min-width: 320px;
+}
+/* hot */
+.hot {
+    margin-bottom: 16px;
+    border-top: 1px solid #e6e6e6;
+    overflow: hidden;
+    max-width: 640px;
+    min-width: 320px;
+}
+.hot h3 {
+    height: 39px;
+    line-height: 39px;
+    margin: 0 12px;
+    font-size: 16px;
+    color: #42beff;
+    padding-left: 23px;
+    position: relative;
+}
+.hot h3::before {
+    content: "";
+    display: block;
+    width: 39px;
+    height: 39px;
+    position: absolute;
+    left: 0;
+    top: 13px;
+    background: url(../images/icon/index_hoticon.png) no-repeat 0 -50.5px;
+    background-size: 19px 200px;
+}
+.hottrade h3::before {
+    background-position: 0 -94px;
+}
+.jobInformation h3::before {
+    background-position: 0 -132.5px;
+}
+.hot > ul {
+    border-top: 1px solid #e6e6e6;
+}
+.hot > ul > li,
+.hot ul li dl {
+    height: 49px;
+    line-height: 49px;
+    box-sizing: border-box;
+    border-bottom: 1px solid #e6e6e6;
+}
+.hot > ul > li {
+    padding: 0 40px 0 12px;
+    position: relative;
+}
+.hotjob ul li b {
+    width: 12px;
+    height: 6px;
+    display: block;
+    position: absolute;
+    right: 14px;
+    top: 24.5px;
+    background: url(../images/icon/combine_icon16312.png) no-repeat -21px -64px;
+}
+.hotjob ul li.hot_6 {
+    text-align: center;
+}
+.hotjob ul li.hot_6 i {
+    width: 6px;
+    height: 6px;
+    display: inline-block;
+    margin-left: 10px;
+    background: url(../images/icon/combine_icon16312.png) no-repeat -228px -104px;
+}
+.hot ul li ul li,
+.hot ul li dl dt,
+.hot ul li dl dd {
+    float: left;
+    width: 25%;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.hot ul li dl dt {
+    color: #000;
+}
+.hot ul li dl dd a {
+    color: #686868;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.hottrade ul li {
+    box-sizing: border-box;
+    text-align: center;
+    line-height: 49px;
+    padding: 0;
+}
+.hottrade ul li a {
+    display: block;
+    width: 25%;
+    float: left;
+    margin-top: 14px;
+    height: 20px;
+    box-sizing: border-box;
+    line-height: 20px;
+    border-right: 1px solid #e6e6e6;
+}
+.hottrade ul li a:last-child {
+    border-right: none;
+}
+.hottrade ul li a i{
+    color: #17a5ff;
+    font-style: normal;
+}
+.jobInformation ul li a {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+} 
+.jobInformation .jobInformation_title {
+    overflow: hidden;
+}
+.jobInformation .jobInformation_title h3 {
+    float: left;
+}
+.jobInformation .jobInformation_title a {
+    float: right;
+    color: #42beff;
+    line-height: 39px;
+    margin-right: 12px;
+    font-size: 16px;
+}
+/* footer */
+.index_footer {
+    overflow: hidden;
+    max-width: 640px;
+    min-width: 320px;
+    box-sizing: border-box;
+    margin-top: 32px;
+    padding-bottom: 60px;
+    width: 100%;
+    height: auto;
+    background: #ededed;
+}
+.index_footer .footer_nav {
+    height: 25px;
+    padding: 20px 10px 32px 10px;
+}
+.index_footer .footer_nav li {
+    float: left;
+    width: 20%;
+    text-align: center;
+    height: 45px;
+}
+.index_footer .footer_nav li a {
+    display: block;
+    height: 45px;
+    margin: 0 auto;
+    color: #686868;
+    font-size: 12px;
+}
+.index_footer .footer_nav li a::before {
+    content: "";
+    display: block;
+    width: 28px;
+    height: 28px;
+    background: url(../images/icon/combine_icon16312.png) no-repeat -55px -52px;
+    margin: 0 auto 3px;
+}
+.index_footer .footer_nav li.nav2 a::before {
+    background-position: -94px -52px;
+}
+.index_footer .footer_nav li.nav3 a::before {
+    background-position: -134px -52px;
+}
+.index_footer .footer_nav li.nav4 a::before {
+    background: url(../images/icon/zuijiaguzhuIcon1_16311.png) left top;
+    background-size: 33px 29px;
+}
+.index_footer .footer_nav li.nav5 a::before {
+    background-position: -173px -52px;
+}
+.index_footer p {
+    text-align: center;
+    font-size: 12px;
+    color: #808080;
+    line-height: 20px;
+}
+.index_footer p a {
+    color: #1AA6FF;
+}
+.index_footer p:last-child {
+    margin-bottom: 10px;
+}
+/* indexLayer */
+.indexLayer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    max-width: 640px;
+    min-width: 320px;
+    background: rgba(0,0,0,0.7);
+    overflow: hidden;
+}
+.indexLayer img {
+    position: absolute;
+    width: 22px;
+    height: 22px;
+    top: 0;
+    left: 0;
+}
+.indexLayer .layer_text {
+    color: #fff;
+    font-size: 16px;
+    width: 79%;
+    float: left;
+    margin-left: 28px;
+}
+.indexLayer .layer_btn {
+    width: 100px;
+    height: 36px;
+    position: absolute;
+    display: block;
+    top: 12px;
+    right: 28px;
+    border-radius: 50px;
+    background: #42beff;
+    color: #fff;
+    text-align: center;
+    font-weight: 700;
+    line-height: 36px;
+    font-size: 17px;
+}
